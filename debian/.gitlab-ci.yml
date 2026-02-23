@@ -1,0 +1,15 @@
+pages:
+  image: registry.salsa.debian.org/salsa-ci-team/ci-image-git-buildpackage
+  stage: deploy
+  artifacts:
+    paths:
+      - public
+    expire_in: 1 day
+  except:
+    - tags
+    - pristine-tar
+    - upstream
+  script:
+    - gitlab-ci-add-pages-repo android-tools-team/android-platform-system-core
+    - gitlab-ci-git-buildpackage-all
+    - gitlab-ci-aptly
