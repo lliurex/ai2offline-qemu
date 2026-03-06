@@ -1,4 +1,4 @@
-ai2offline-qemu (0.2) jammy; urgency=medium
+ai2offline-qemu (0.2) noble; urgency=medium
 
   * Package split
 
