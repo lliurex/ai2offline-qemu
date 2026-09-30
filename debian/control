@@ -9,7 +9,7 @@ Homepage: https://github.com/lliurex/ai2offline-emulator
 
 Package: ai2offline-qemu
 Architecture: all
-Depends: zero-lliurex-ai2offline, android-sdk, android-sdk-platform-tools, sqlite3
+Depends: zero-lliurex-ai2offline, android-sdk, android-sdk-platform-tools
 Description: Qemu Emulator for ai2offline
  Qemu emulator for ai2offline
 
