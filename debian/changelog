@@ -1,3 +1,9 @@
+ai2offline-qemu (0.2.1) noble; urgency=medium
+
+  * Add depend on sqlite3
+
+ -- Juanma1980 <juanma1980@gmail.com>  Wed, 30 Sep 2026 14:00:13 +0200
+
 ai2offline-qemu (0.2) noble; urgency=medium
 
   * Package split
